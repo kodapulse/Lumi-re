@@ -1,0 +1,28 @@
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+node_modules
+*.local
+
+# build
+dist
+.tanstack
+
+# généré par le plugin TanStack Router à chaque dev/build
+src/routeTree.gen.js
+
+# éditeur
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# lien local Base44
+base44/.app.jsonc
